@@ -665,7 +665,8 @@ abstract class BookModification{
     }//GEN-LAST:event_add_bookMousePressed
 
     private void jLabel2MousePressed(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel2MousePressed
-      
+        BookModification book = new BookMod();
+        book.get();
     }//GEN-LAST:event_jLabel2MousePressed
 
     private void remove_bookMousePressed(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_remove_bookMousePressed
