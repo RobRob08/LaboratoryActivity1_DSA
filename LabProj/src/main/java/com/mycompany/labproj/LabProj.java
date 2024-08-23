@@ -687,7 +687,10 @@ abstract class BookModification{
 
     private void update_bookMousePressed(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_update_bookMousePressed
     
-    }//GEN-LAST:event_update_bookMousePressed
+    }
+BookModification book=new 
+    BookModification (); 
+book.update();
 
     /**
      * @param args the command line arguments
