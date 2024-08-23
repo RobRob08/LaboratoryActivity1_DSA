@@ -660,7 +660,8 @@ abstract class BookModification{
     }//GEN-LAST:event_search_btnMousePressed
 
     private void add_bookMousePressed(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_add_bookMousePressed
-     
+     BookModification book = new BookMod(); 
+     book.add();
     }//GEN-LAST:event_add_bookMousePressed
 
     private void jLabel2MousePressed(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel2MousePressed
