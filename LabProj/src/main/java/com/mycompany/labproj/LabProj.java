@@ -25,7 +25,12 @@ abstract class BookModification{
 
     abstract void update();
 }
-class BookMod extends BookModification {
+class BookMod extends BookMod {
+    void gets(){
+        int index = parseInt(index_get.getText());
+
+        JOptionPane.showMessageDialog(null,Bookinfo,get(index));
+    }
 }
     @SuppressWarnings("unchecked")
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
