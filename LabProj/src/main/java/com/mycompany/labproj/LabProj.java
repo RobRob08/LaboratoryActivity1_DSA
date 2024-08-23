@@ -29,7 +29,7 @@ abstract class BookModification{
     void get(){
         int index = parseInt(index_get.getText());
 
-        JOptionPane.showMessageDialog(null,Bookinfo,get(index));
+        JOptionPane.showMessageDialog(null,"The Book in index ["+ index +"] is " +Bookinfo.get(index));
     }
     void add(){
      int index = parseInt(index_add.getText());
