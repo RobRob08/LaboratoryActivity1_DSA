@@ -26,7 +26,7 @@ abstract class BookModification{
     abstract void update();
 }
     class BookMod extends BookModification{
-    void gets(){
+    void get(){
         int index = parseInt(index_get.getText());
 
         JOptionPane.showMessageDialog(null,Bookinfo,get(index));
