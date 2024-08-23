@@ -671,7 +671,7 @@ abstract class BookModification{
 
     private void remove_bookMousePressed(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_remove_bookMousePressed
         BookModification book = new BookMod(); 
-        book.remove();
+        book.remove(); 
     }//GEN-LAST:event_remove_bookMousePressed
 
     private void remove_btnMousePressed(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_remove_btnMousePressed
