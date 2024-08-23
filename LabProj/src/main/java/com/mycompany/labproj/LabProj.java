@@ -45,6 +45,17 @@ abstract class BookModification{
         }
         dt.addRow(v);
     }
+
+    void remove(){
+    int index1 = parseInt(index_remove.getText());
+        DefaultTableModel dt = (DefaultTableModel)jTable1.getModel();
+        for(int x = 0 ; x < dt.getRowCount(); x++){
+        if (((String)jTable1.getValueAt(x, 0)).equals(title_remove.getText())) {
+                dt.removeRow(x);
+         Bookinfo.remove(index1);
+        }
+        }
+    }
     }
 
     @SuppressWarnings("unchecked")
