@@ -686,7 +686,7 @@ abstract class BookModification{
     }//GEN-LAST:event_Total_bookMousePressed
 
     private void update_bookMousePressed(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_update_bookMousePressed
-        BookModification book = new BookModification (); 
+        BookModification book = new BookMod(); 
         book.update();
     }
 
