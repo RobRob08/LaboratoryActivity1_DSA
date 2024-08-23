@@ -16,7 +16,17 @@ public static ArrayList Bookinfo = new ArrayList();
            initComponents();
         setExtendedState(MAXIMIZED_BOTH);  
     }
+abstract class BookModification{
+    abstract void get();
 
+    abstract void add();
+
+    abstract void remove();
+
+    abstract void update();
+}
+class BookMod extends BookModification {
+}
     @SuppressWarnings("unchecked")
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
