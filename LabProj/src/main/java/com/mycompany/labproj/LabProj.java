@@ -25,10 +25,12 @@ abstract class BookModification{
 
     abstract void update();
 }
+    class BookMod extends BookModification{
     void gets(){
         int index = parseInt(index_get.getText());
 
         JOptionPane.showMessageDialog(null,Bookinfo,get(index));
+    }
     }
 
     @SuppressWarnings("unchecked")
