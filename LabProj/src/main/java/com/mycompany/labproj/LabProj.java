@@ -31,6 +31,20 @@ abstract class BookModification{
 
         JOptionPane.showMessageDialog(null,Bookinfo,get(index));
     }
+    void add(){
+     int index = parseInt(index_add.getText());
+        Bookinfo.add(index,title_add.getText());
+         DefaultTableModel dt = (DefaultTableModel)jTable1.getModel();
+        
+        Vector v = new Vector();
+        
+        for(int i = 0; i < Bookinfo.size(); i++){
+ 
+        v.add(title_add.getText());
+        v.add(quantity_add.getText());
+        }
+        dt.addRow(v);
+    }
     }
 
     @SuppressWarnings("unchecked")
